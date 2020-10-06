@@ -1,20 +1,9 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #282c34;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +11,39 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+  /* animation-name: fadein;
+  animation-duration: 3.5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+
+  background-image: url('./assets/landing_page.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
-.App-link {
-  color: #61dafb;
+.landing-page-img {
+  width: 100%;
+  height: 100vh;
+  /* position: absolute; */
+  z-index: 1;
+  animation-name: fadein;
+  animation-duration: 3.5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+
+  background-image: url('./assets/landing_page.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-page-text {
+  z-index: 5;
+  position: absolute;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +52,19 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0%;
+  }
+
+  60% {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
   }
 }
