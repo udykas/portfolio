@@ -11,30 +11,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  
-  /* animation-name: fadein;
-  animation-duration: 3.5s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-
-  background-image: url('./assets/landing_page.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
 
 .landing-page-img {
   width: 100%;
   height: 100vh;
-  /* position: absolute; */
   z-index: 1;
   animation-name: fadein;
-  animation-duration: 3.5s;
+  animation-duration: 3s;
   animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-
-  background-image: url('./assets/landing_page.jpg');
+  animation-timing-function: ease-out;
+  
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/landing_page.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -46,12 +34,62 @@
   position: absolute;
 }
 
-@keyframes App-logo-spin {
+.line {
+  animation-name: lineslide;
+  animation-duration: 1.25s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+}
+
+.name {
+  line-height: 60%;
+  font-size: 1.5em;
+  letter-spacing: 0.225em;
+
+  animation-name: namefade;
+  animation-duration: 0.75s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+}
+
+.occupation {
+  padding-top: 20px;
+  font-size: 0.75em;
+  letter-spacing: 0.225em;
+  
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes lineslide {
   from {
-    transform: rotate(0deg);
+    opacity: 0%;
+    width: 0;
+  }
+  60% {
+    opacity: 0%;
+    width: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes namefade {
+  from {
+    opacity: 0%;
+    scale: 0.8;
+  }
+  50% {
+    opacity: 0%;
+    scale: 0.8;
+  }
+  to {
+    opacity: 100%;
+    scale: 1;
   }
 }
 
@@ -60,7 +98,7 @@
     opacity: 0%;
   }
 
-  60% {
+  50% {
     opacity: 0%;
   }
 
