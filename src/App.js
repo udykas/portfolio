@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header></header>
+      <div className="App-header">
         <div className="landing-page-img"></div>
         <div className="landing-page-text">
           <hr className="line" style={{color: 'white', height: '1px', backgroundColor: 'white'}}/>
@@ -12,7 +13,7 @@ function App() {
           <hr className="line" style={{color: 'white', height: '1px', backgroundColor: 'white'}}/>
           <p className="occupation">FULLSTACK WEB DEVELOPER <br/> & <br/> SOFTWARE ENGINEER</p>
         </div>
-      </header>
+      </div>
     </div>
   );
 }

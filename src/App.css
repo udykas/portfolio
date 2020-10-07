@@ -18,7 +18,7 @@
   height: 100vh;
   z-index: 1;
   animation-name: fadein;
-  animation-duration: 3s;
+  animation-duration: 3.5s;
   animation-delay: 0s;
   animation-timing-function: ease-out;
   
@@ -58,7 +58,7 @@
   letter-spacing: 0.225em;
   
   animation-name: fadein;
-  animation-duration: 3s;
+  animation-duration: 3.5s;
   animation-delay: 0s;
   animation-timing-function: ease-out;
 }
@@ -98,7 +98,7 @@
     opacity: 0%;
   }
 
-  50% {
+  40% {
     opacity: 0%;
   }
 
