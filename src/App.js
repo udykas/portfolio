@@ -22,12 +22,13 @@ function App() {
               <i class="fas fa-times fa-lg"></i>
             </div>
           </div>
-          <ul>
-            <li>ABOUT</li>
-            <li>TECH STACK</li>
-            <li>PROJECTS</li>
-            <li>ARTICLES</li>
-            <li>CONTACT</li>
+          <ul className="menu-item-container">
+            <li className="menu-item">HOME</li>
+            <li className="menu-item">ABOUT</li>
+            <li className="menu-item">TECH STACK</li>
+            <li className="menu-item">PROJECTS</li>
+            <li className="menu-item">ARTICLES</li>
+            <li className="menu-item">CONTACT</li>
           </ul>
         </div>
       </div>
