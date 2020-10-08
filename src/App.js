@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header></header>
+      <header className="header menu">
+        <span>MENU</span>
+        <i class="fas fa-bars fa-s"></i>
+      </header>
       <div className="App-header">
         <div className="landing-page-img"></div>
         <div className="landing-page-text">
@@ -14,6 +17,9 @@ function App() {
           <p className="occupation">FULLSTACK WEB DEVELOPER <br/> & <br/> SOFTWARE ENGINEER</p>
         </div>
       </div>
+      {/* <div>
+        <h2>About</h2>
+      </div> */}
     </div>
   );
 }
