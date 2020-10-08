@@ -2,11 +2,40 @@ import React from 'react';
 import './App.css';
 
 function App() {
+
+  const handleMenu = () => {
+    const menu = document.getElementsByClassName("menu");
+    if(menu[0].classList.contains("active")){
+      menu[0].classList.remove("active")
+    } else {
+      menu[0].classList.add("active")
+    }
+    console.log(menu[0].classList)
+  }
+
   return (
     <div className="App">
-      <header className="header menu">
-        <span>MENU</span>
-        <i class="fas fa-bars fa-s"></i>
+      <div className="menu-container">
+        <div className="menu">
+          <div className="menu-close-icon">
+            <div onClick={handleMenu} style={{cursor: "pointer", padding: "10px"}}>
+              <i class="fas fa-times fa-lg"></i>
+            </div>
+          </div>
+          <ul>
+            <li>ABOUT</li>
+            <li>TECH STACK</li>
+            <li>PROJECTS</li>
+            <li>ARTICLES</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+      </div>
+      <header className="header menu-icon">
+        <div className="menu-icon-container" onClick={handleMenu}>
+          <span>MENU</span>
+          <i class="fas fa-bars fa-s"></i>
+        </div>
       </header>
       <div className="App-header">
         <div className="landing-page-img"></div>

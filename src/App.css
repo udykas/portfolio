@@ -26,11 +26,42 @@
   font-size: 0.95em;
 }
 
-.menu {
+.menu-icon {
   z-index: 5;
   position: fixed;
   color: white;
   top: 20px;
+}
+
+.menu-icon-container {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  height: 100vh;
+  width: 25%;
+  z-index: 10;
+  position: fixed;
+  background-color: rgba(33, 178, 166, 1);
+  right: -25%;
+  color: white;
+}
+
+.menu.active {
+  right: 0;
+}
+
+.menu-close-icon {
+  width: 98%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 
 .landing-page-img {
