@@ -4,6 +4,7 @@ import './App.css';
 import Menu from './components/Menu';
 import Header from './components/Header';
 import LandingPage from './components/LandingPage';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Menu />
       <Header />
       <LandingPage />
+      <About />
     </div>
   );
 }

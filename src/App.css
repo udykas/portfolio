@@ -50,11 +50,11 @@
 
 .menu {
   height: 100vh;
-  width: 25%;
+  width: 320px;
   z-index: 10;
   position: fixed;
   background-color: rgba(33, 178, 166, 1);
-  right: -25%;
+  right: -320px;
   color: white;
 }
 
@@ -186,16 +186,16 @@
 
 @keyframes menuslideout {
   from {
-    right: 0%;
+    right: 0;
   }
   to {
-    right: -25%;
+    right: -320px;
   }
 }
 
 @keyframes menuslidein {
   from {
-    right: -25%;
+    right: -320px;
   }
   to {
     right: 0;
