@@ -10,14 +10,13 @@ function Header() {
       menu[0].classList.add("active")
       menu[0].classList.remove("inactive")
     }
-    console.log(menu[0].classList)
   }
 
   return(
     <header className="header menu-icon">
       <div className="menu-icon-container" onClick={handleMenu}>
         <span>MENU</span>
-        <i class="fas fa-bars fa-s"></i>
+        <i className="fas fa-bars fa-s"></i>
       </div>
     </header>
   )

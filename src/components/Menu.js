@@ -19,7 +19,7 @@ function Menu() {
       <div className="menu">
         <div className="menu-close-icon">
           <div onClick={handleMenu} style={{cursor: "pointer", padding: "10px"}}>
-            <i class="fas fa-times fa-lg"></i>
+            <i className="fas fa-times fa-lg"></i>
           </div>
         </div>
         <ul className="menu-item-container">

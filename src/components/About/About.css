@@ -1,7 +1,47 @@
+.about-section-container {
+  color: white;
+  height: 600px;
+  background-color: #273038;
+}
+
 .about-header {
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  background-color: #2e3842;
+}
+
+.about-header h1 {
+  font-size: 36px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.about-img-container {
+  margin: 20px;
+}
+
+.profile-pic {
+  height: 350px;
+  border-radius: 100%;
+  transform: rotate(30deg);
+}
+
+.about-description {
+  height: 300px;
+  width: 800px;
+  margin: 20px;
+}
+
+.about-description p {
+  text-align: left;
+  font-size: 17px;
 }
