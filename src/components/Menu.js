@@ -23,12 +23,12 @@ function Menu() {
           </div>
         </div>
         <ul className="menu-item-container">
-          <li className="menu-item">HOME</li>
-          <li className="menu-item">ABOUT</li>
-          <li className="menu-item">TECH STACK</li>
-          <li className="menu-item">PROJECTS</li>
-          <li className="menu-item">ARTICLES</li>
-          <li className="menu-item">CONTACT</li>
+          <li className="menu-item"><a href="#home">HOME</a></li>
+          <li className="menu-item"><a href="#about">ABOUT</a></li>
+          <li className="menu-item"><a href="#tech">TECH STACK</a></li>
+          <li className="menu-item"><a href="#projects">PROJECTS</a></li>
+          <li className="menu-item"><a href="#articls">ARTICLES</a></li>
+          <li className="menu-item"><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>

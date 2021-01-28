@@ -2,7 +2,7 @@ import React from 'react';
 
 function LandingPage() {
   return(
-    <div className="App-header">
+    <div id="home" className="App-header">
       <div className="landing-page-img"></div>
       <div className="landing-page-text">
         <hr className="line" style={{color: 'white', height: '1px', backgroundColor: 'white'}}/>

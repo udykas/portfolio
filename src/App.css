@@ -13,7 +13,7 @@
   color: white;
 }
 
-.header{
+.header {
   width: 98%;
   display: flex;
   justify-content: flex-end;
@@ -106,8 +106,13 @@
   animation-timing-function: ease-in-out;
 }
 
-.menu-item:hover {
-  color: #18252D;
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item a:hover {
+  color: #18252d;
 
   animation-name: colorfadein;
   animation-duration: 0.35s;
@@ -127,8 +132,9 @@
   animation-duration: 3.5s;
   animation-delay: 0s;
   animation-timing-function: ease-out;
-  
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/landing_page.jpg');
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/landing_page.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,7 +168,7 @@
   padding-top: 20px;
   font-size: 0.75em;
   letter-spacing: 0.225em;
-  
+
   animation-name: fadein;
   animation-duration: 3.5s;
   animation-delay: 0s;
@@ -237,15 +243,15 @@
   }
 
   to {
-    color: #18252D;
+    color: #18252d;
   }
 }
 
 @keyframes colorfadeout {
   from {
-    color: #18252D;
+    color: #18252d;
   }
-  
+
   to {
     color: white;
   }

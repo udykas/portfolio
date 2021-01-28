@@ -5,7 +5,7 @@ import profile from '../../assets/profile-pic.jpg';
 function About() {
 
   return(
-    <div className="about-section-container">
+    <div id="about" className="about-section-container">
       <div className="about-header">
         <h1>About</h1>
       </div>
