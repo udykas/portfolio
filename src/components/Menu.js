@@ -43,11 +43,11 @@ function Menu() {
               PROJECTS
             </a>
           </li>
-          <li className="menu-item">
+          {/* <li className="menu-item">
             <a href="#articls" onClick={handleMenu}>
               ARTICLES
             </a>
-          </li>
+          </li> */}
           <li className="menu-item">
             <a href="#contact" onClick={handleMenu}>
               CONTACT
