@@ -23,12 +23,36 @@ function Menu() {
           </div>
         </div>
         <ul className="menu-item-container">
-          <li className="menu-item"><a href="#home">HOME</a></li>
-          <li className="menu-item"><a href="#about">ABOUT</a></li>
-          <li className="menu-item"><a href="#tech">TECH STACK</a></li>
-          <li className="menu-item"><a href="#projects">PROJECTS</a></li>
-          <li className="menu-item"><a href="#articls">ARTICLES</a></li>
-          <li className="menu-item"><a href="#contact">CONTACT</a></li>
+          <li className="menu-item">
+            <a href="#home" onClick={handleMenu}>
+              HOME
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#about" onClick={handleMenu}>
+              ABOUT
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#tech" onClick={handleMenu}>
+              TECH STACK
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#projects" onClick={handleMenu}>
+              PROJECTS
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#articls" onClick={handleMenu}>
+              ARTICLES
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#contact" onClick={handleMenu}>
+              CONTACT
+            </a>
+          </li>
         </ul>
       </div>
     </div>

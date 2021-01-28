@@ -6,6 +6,7 @@ import Header from './components/Header';
 import LandingPage from './components/LandingPage';
 import About from './components/About/About';
 import TechStack from './components/Tech Stack/TechStack';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <LandingPage />
       <About />
       <TechStack />
+      <Projects />
     </div>
   );
 }
