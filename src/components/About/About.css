@@ -36,6 +36,10 @@
 }
 
 .about-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   width: 800px;
   margin: 20px;
@@ -43,5 +47,24 @@
 
 .about-description p {
   text-align: left;
-  font-size: 17px;
+  font-size: 18px;
+}
+
+.about-description a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  padding-top: 20px;
+}
+
+.about-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

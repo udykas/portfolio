@@ -15,7 +15,7 @@ function Projects() {
             <div className="projects-content">
                 <h1 className="coming-soon">COMING SOON!</h1>
                 <div className="project-card">
-                    <img className="project-image" src={HouseParty} />
+                    <img className="project-image" src={HouseParty} alt="Website: House Party" />
                     <div className="project-summary">
                         <h1 className="project-title" >House Party</h1>
                         <p className="project-description">Make your Spotify party playlist collaborative, giving access to add and skip songs to all of your guests!</p>
@@ -30,7 +30,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img className="project-image" src={FreshFits} />
+                    <img className="project-image" src={FreshFits} alt="Website: Fresh Fits" />
                     <div className="project-summary">
                         <h1 className="project-title" >Fresh Fits</h1>
                         <p className="project-description">A high end, online clothing store for the freshest street wear money can buy! Sold by you, for you.</p>

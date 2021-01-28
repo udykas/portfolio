@@ -7,6 +7,7 @@ import LandingPage from './components/LandingPage';
 import About from './components/About/About';
 import TechStack from './components/Tech Stack/TechStack';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <TechStack />
       <Projects />
+      <Contact />
     </div>
   );
 }
